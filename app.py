@@ -1,8 +1,6 @@
 import streamlit as st
 
-# ==========================================
-# 1. 頁面設定
-# ==========================================
+
 # ==========================================
 # 1. 頁面設定
 # ==========================================
@@ -25,7 +23,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 # ==========================================
 with st.sidebar:
     st.title("❄️ 2026 北海道")
-    st.image("https://images.unsplash.com/photo-1548182272-4d8961726c2e?q=80&w=600&auto=format&fit=crop", caption="Winter in Hokkaido")
+    st.image("https://japantravel.navitime.com/static/parche/20251106-1/images/atomic-design/sp/destinations/area_city_summary/A0101.png", caption="Winter in Hokkaido")
     
     page = st.radio(
         "前往頁面",
